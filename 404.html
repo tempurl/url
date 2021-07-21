@@ -67,7 +67,7 @@
         xhr.onerror = function () {
           location.replace(homepage);
         };
-        xhr.open("GET", GITHUB_ISSUES_LINK + issuecomments);
+        xhr.open("GET", GITHUB_ISSUES_LINK + issueNumber);
         xhr.send();
       }
 
